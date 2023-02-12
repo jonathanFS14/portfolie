@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+  <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div id="navbar">
+    <nav class="topnav">
+        <h6>Jonathan Finner Smith</h6>
+        <a href="about.html">About me</a>
+        <a href="index.html">Home</a>
+    </nav>
+</div>
+
+<main>
+<section id="body-div1">
+    <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg" alt="space" style="width: 100%">
+    <header>
+    <div class="centered1">Welcome to my universe</div>
+    </header>
+</section>
+
+<section id="body-div2">
+    <img src="https://i.pinimg.com/736x/3c/e4/39/3ce439a152a704da5f7e52c6902689ab.jpg" alt="coding" style="width: 100%">
+    <div class="centered2"> Programming quotes</div>
+
+    <div class="centered2-left">
+        “Any fool can write code that a computer can understand. <br>
+        Good programmers write code that humans can understand.” <br> – Martin Fowler <br> <br>
+        “First, solve the problem. Then, write the code.” <br> – John Johnson <br> <br>
+        “Before software can be reusable it first has to be usable.” <br> – Ralph Johnson <br> <br>
+        “Make it work, make it right, make it fast.” <br> – Kent Beck <br> <br>
+        “Simplicity is the soul of efficiency.” <br> – Austin Freeman <br>
+        </div>
+
+    <div class="centered2-right">
+        “Java is to Javascript what car is to Carpet.” <br> – Chris Heilmann <br> <br>
+        “Knowledge is power” <br> – Francis Bacon <br> <br>
+        “Sometimes it pays to stay in bed on Monday, rather than spending the <br>
+        rest of the week debugging Monday’s code.” <br> – Dan Salomon <br> <br>
+        “Ruby is rubbish! PHP is phpantastic!.” <br> – Nikita Popov <br> <br>
+        “ Code is like humor. When you have to explain it, it’s bad.” <br> – Cory House <br> <br>
+    </div>
+
+</section>
+
+<section id="body-div3">
+    <img src="https://geographical.co.uk/wp-content/uploads/shutterstock_1853507206-1.jpg" alt="mariana trench" style="width: 100%">
+    <div class="centered3">
+        <p>
+         You have reached the bottom of the trench <br>
+         feel free to hit the about me <br>
+         reference at the top right corner
+        </p>
+    </div>
+</section>
+</main>
+
+<footer id="footer-div">
+    <p>
+    E-mail:
+    <a href="mailto:jona08p8@stud.kea.dk">jona08p8@stud.kea.dk</a>
+    <br>
+    Address:
+    <a href="https://goo.gl/maps/2NxpkPsihR2aJzUWA" target="_blank">Brandholms alle 13B</a>
+    </p>
+    <a href="https://www.facebook.com/jonathan.finnersmith.98/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://github.com/jonathanFS14" target="_blank" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/jonathan-finner-smith-a82983265/" target="_blank" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/jonathan_finner/" target="_blank" class="fa fa-instagram"></a>
+</footer>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.scrollY >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>
